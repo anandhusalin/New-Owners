@@ -1,0 +1,121 @@
+name: fuodz
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: ^0.13.4
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  adaptive_theme: ^2.3.0
+  awesome_notifications: ^0.6.21
+  banner_carousel: ^1.2.1
+  basic_utils: ^4.2.0
+  cached_network_image: ^3.2.0
+  carousel_slider: ^4.0.0
+  contained_tab_bar_view: ^0.8.0
+  cool_alert: ^1.1.0
+  country_picker: ^2.0.11
+  cupertino_icons: ^1.0.4
+  dartx: ^1.0.0
+  dio_http_cache_lts: ^0.4.0
+  dotted_border: ^2.0.0+2
+  dotted_line: ^3.1.0
+  double_back_to_close: ^2.0.0
+  expand_widget: ^2.1.0
+  firebase_auth: ^3.3.7
+  firebase_core: ^1.12.0
+  firebase_messaging: ^11.2.6
+  flag: ^6.0.0
+  flutter:
+    sdk: flutter
+  flutter_icons: ^1.1.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_onboard: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  flutter_staggered_animations: ^1.0.0
+  flutter_webview_plugin: ^0.4.0
+  google_fonts: ^2.3.1
+  google_map_location_picker: ^4.1.7
+  google_nav_bar: ^5.0.5
+  google_places_flutter: ^2.0.5
+  group_radio_button: ^1.2.0
+  i18n_extension: ^4.2.0
+  image_picker: ^0.8.4+9
+  in_app_review: ^2.0.4
+  inspection: ^0.0.13
+  jiffy: ^5.0.0
+  line_icons: ^2.0.1
+  location: ^4.3.0
+  map_launcher: ^2.2.1+1
+  masonry_grid: ^1.0.0
+  package_info: ^2.0.2
+  pin_code_fields: ^7.3.0
+  pretty_dio_logger: ^1.1.1
+  provider: ^6.0.2
+  pull_to_refresh: ^2.0.0
+  qr_code_scanner: ^0.6.1
+  qr_flutter: ^4.0.0
+  random_string: ^2.3.1
+  rx_shared_preferences: ^2.0.13
+  share: ^2.0.1
+  shared_preferences: ^2.0.6
+  singleton: ^0.0.2
+  smooth_page_indicator: ^1.0.0+2
+  stacked: ^2.2.8
+  sticky_headers: ^0.2.0
+  supercharged: ^2.1.1
+  timelines: ^0.1.0
+  url_launcher: ^6.0.20
+  velocity_x: ^3.4.0
+  what3words: ^3.1.0
+
+dependency_overrides:
+  dio: ^4.0.0
+  http: ^0.13.3
+  firebase_chat: 0.0.4
+  cloud_firestore: ^3.1.8
+  flutter_svg: ^1.0.3
+  geocoder: ^0.2.1
+  google_maps_flutter: ^2.1.1
+  intl: ^0.17.0
+  args: ^2.3.0
+  flutter_application_id: ^1.0.0
+  flutter_polyline_points: ^1.0.0
+  rxdart: ^0.27.3
+  yaml: ^3.1.0
+  equatable: ^2.0.3
+  plugin_platform_interface: ^2.1.2
+
+dev_dependencies:
+  flutter_application_id: "^1.0.0"
+  flutter_launcher_icons: "^0.9.0"
+  flutter_native_splash: ^2.0.4
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
